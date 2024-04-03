@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Escreva um programa para ler o número de gols marcados pelo Corinthians e o número de gols marcados pelo Palmeiras em um final da Libertadores.
+         Exibir o nome do vencedor. Caso não haja vencedor deverá ser exibida a palavra EMPATE. */
+
+         const golsCorinthians = parseInt(prompt("Digite o número de gols marcados pelo Corinthians:"));
+
+         const golsPalmeiras = parseInt(prompt("Digite o número de gols marcados pelo Palmeiras:"));
+
+         if (golsCorinthians > golsPalmeiras) {
+         alert("O Corinthians venceu!");
+         } 
+         else if (golsPalmeiras > golsCorinthians) {
+         alert("O Palmeiras venceu!");
+         } 
+        else {
+        alert("Empate!");
+        }
+    </script>
+</body>
+</html>
