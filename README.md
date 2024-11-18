@@ -35,4 +35,4 @@ Este repositório contém uma coleção de exercícios desenvolvidos como parte 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/HiagoSalvador/exercicios-logica.git
+   git clone https://github.com/HiagoSalvador/Bora-Codar2-JS.git
